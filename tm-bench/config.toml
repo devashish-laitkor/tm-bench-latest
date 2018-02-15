@@ -7,16 +7,23 @@ size = 10000
 randomfromsize=100
 randomtosize=10000
 
-[percentrandom]
-       	        RatePercent1 = 60
-	        RatePercent2 = 20
-		RatePercent3 = 15
-		RatePercent4 = 5
-		FromSize1 = 50
-		ToSize1 = 250
-		FromSize2 = 251
-		ToSize2 = 500
-		FromSize3 = 501
-		ToSize3 = 1000
-		FromSize4 = 1001
-		ToSize4 = 10000
+[[percentrandom]]
+ratePercent=60
+FromSize=50
+ToSize=250
+
+[[percentrandom]]
+ratePercent=20
+FromSize=251
+ToSize=500
+
+[[percentrandom]]
+ratePercent=15
+FromSize=501
+ToSize=1000
+
+[[percentrandom]]
+ratePercent=5
+FromSize=1001
+ToSize=10000
+
